@@ -31,7 +31,7 @@ function Carousel() {
         />
       </div>
 
-      <div style={{marginTop:"10px"}}>
+      <div style={{ display: "flex", gap: "10px", marginTop: "10px", marginLeft: "125px" }}>
         <button onClick={anterior}>Anterior</button>
         <button onClick={siguiente}>Siguiente</button>
       </div>
