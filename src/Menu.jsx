@@ -1,6 +1,6 @@
 function Menu({ canviarTasca }) {
   
-    const menuItems = ['tasca 1.1', 'tasca 1.2', 'tasca 1.3', 'tasca 1.4', 'tasca 2.1', 'tasca 2.2', 'tasca 3']
+    const menuItems = ['tasca 1.1', 'tasca 1.2', 'tasca 1.3', 'tasca 1.4', 'tasca 2.1', 'tasca 2.2', 'tasca 3', 'tasca 4.1', 'tasca 4.2']
 
     function onClickMenuItem(item) {
       canviarTasca(item)

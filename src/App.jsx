@@ -20,6 +20,10 @@ import dbd from "./imagenes/dbd.jpg";
 import fh6 from "./imagenes/fh6.jpg";
 import liarsbar from "./imagenes/liarsbar.jpg";
 
+// Tasca 4
+import Ejercicio4_1 from './componentes/tasca4/Ejercicio1'
+import Ejercicio4_2 from './componentes/tasca4/Ejercicio2'
+
 function App() {
   
   const [tascaSeleccionada, setTascaSeleccionada] = useState('tasca 1.1')
@@ -46,6 +50,10 @@ function App() {
                 <Ejercicio3_1   imagen={fh6} titulo='Forza Horizon 6' parrafo='Forza Horizon 6, ambientado en Japón y lanzado en 2026, es un juego de carreras en mundo abierto donde los jugadores comienzan como turistas y exploran paisajes diversos, desde la bulliciosa Tokio (cinco veces mayor que en FH5) hasta zonas rurales y montañosas.' textoBoton1='SHARE' enlaceBoton1='#' textoBoton2='LEARN MORE' enlaceBoton2='#' colorBoton3="yellow" textoBoton3='Color'/>
                 <Ejercicio3_1   imagen={liarsbar} titulo="Liar's Bar" parrafo="Liar's Bar es un juego multijugador en línea de deducción social y mentiras, ambientado en un bar sombrío, donde 2-4 jugadores utilizan cartas o dados para engañar a sus oponentes. La clave es mentir sin ser descubierto; de lo contrario, el mentiroso debe enfrentar un minijuego de ruleta rusa." textoBoton1='SHARE' enlaceBoton1='#' textoBoton2='LEARN MORE' enlaceBoton2='#' colorBoton3="purple" textoBoton3='Color'/>
                </div>
+      case 'tasca 4.1':
+        return <Ejercicio4_1 />
+      case 'tasca 4.2':
+        return <Ejercicio4_2 />
       default:
         return null
     }
